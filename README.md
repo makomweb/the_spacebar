@@ -94,3 +94,7 @@ Packs have a darkside --> versioning!
 Adjust the web directory of the Symfony plugin in PhpStorm
 so that it contains 'public'.
 ```
+
+## Check autowiring
+
+Run `./bin/console debug:autowiring`

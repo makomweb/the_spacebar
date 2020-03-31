@@ -24,4 +24,15 @@ This fails because the bundle is discouraged. Use the following instead!
 
 `symfony server:start`
 
+# Setup IDE (PhpStorm)
+
+- Symfony Support
+- Php Annotations
+- Enable Symfony Support Plugin
+- Configure Composer!
+
 ## Adding a route
+
+```
+Symfony app is a small route controller system
+```

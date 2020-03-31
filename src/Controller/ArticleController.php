@@ -23,8 +23,9 @@ class ArticleController extends AbstractController
      */
     public function show($slug) {
 
-        return new Response(
-            sprintf('Future page to show one space article: %s', $slug)
-        );
+        return $this->render('article/show.html.twig', [
+           'title' => ucwords((str_replace('-', ' ', $slug))),
+
+        ]);
     }
 }

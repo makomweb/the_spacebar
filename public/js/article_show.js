@@ -4,7 +4,7 @@ $(document).ready(function() {
         e.preventDefault();
 
         var $link = $(e.currentTarget);
-        $link.toggleClass('fa-heart-o').toggleClas('fa-heart');
+        $link.toggleClass('fa-heart-o').toggleClass('fa-heart');
 
         $('.js-like-article-count').html('TEST');
     });

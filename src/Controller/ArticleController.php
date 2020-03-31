@@ -20,8 +20,10 @@ class ArticleController
     /**
      * @Route("/news/{slug}")
      */
-    public function show() {
+    public function show($slug) {
 
-        return new Response('Future page to show one space article!');
+        return new Response(
+            sprintf('Future page to show one space article: %s', $slug)
+        );
     }
 }

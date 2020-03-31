@@ -18,7 +18,7 @@ class ArticleController
     }
 
     /**
-     * @Route("/news/why-asteroids-taste-like-bacon")
+     * @Route("/news/{slug}")
      */
     public function show() {
 
